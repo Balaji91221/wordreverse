@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Word Reversal Algorithm with Visualization
 
-## Getting Started
+This project is a simple web application that demonstrates a word reversal algorithm. It includes a visualization of the algorithm's steps, showing the reverse process of a given sentence in real-time. The project is built using React and JavaScript, and allows users to interactively see how the words in a sentence are reversed.
 
-First, run the development server:
+## Table of Contents
+- [Demo](#demo)
+- [Features](#features)
+- [Technologies](#technologies)
+- [Setup](#setup)
+- [How to Use](#how-to-use)
+- [Pseudocode](#pseudocode)
+- [License](#license)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Demo
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+![alt text](image.png)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Enter a sentence and reverse the words in the sentence.
+- Algorithm visualization, showing each step of the reversal process.
+- Adjustable animation speed to see how each step of the algorithm works.
+- Real-time display of the algorithm's pseudocode alongside the output.
 
-## Learn More
+## Technologies
 
-To learn more about Next.js, take a look at the following resources:
+- **React**: Frontend framework for building the user interface.
+- **JavaScript**: Used for the algorithm and application logic.
+- **Tailwind CSS**: Styling framework for building responsive and modern UI.
+- **Vercel**: (Optional) For deployment.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Setup
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+To run this project locally, follow these steps:
 
-## Deploy on Vercel
+1. Clone this repository:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+   ```bash
+   git clone https://github.com/yourusername/word-reversal-visualization.git
+   cd word-reversal-visualization
